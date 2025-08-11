@@ -32,7 +32,7 @@ export default function CallToAction() {
           {/* Email */}
           <motion.div {...hoverItem}>
             <Link
-              href="mailto:adrian@email.com"
+              href="mailto:rodriguezgomezadrian98@gmail.com"
               className="group relative inline-flex items-center justify-center rounded-2xl px-6 py-3 font-medium text-white button-focus"
             >
               {/* Glow dinámico al hacer hover */}
@@ -47,7 +47,7 @@ export default function CallToAction() {
           {/* LinkedIn */}
           <motion.div {...hoverItem}>
             <Link
-              href="https://www.linkedin.com/in/tu-linkedin"
+              href="https://www.linkedin.com"
               target="_blank"
               className="group relative inline-flex items-center justify-center rounded-2xl border border-white/20 px-5 py-3 button-focus overflow-hidden"
             >
@@ -63,7 +63,7 @@ export default function CallToAction() {
           {/* GitHub */}
           <motion.div {...hoverItem}>
             <Link
-              href="https://github.com/tu-usuario"
+              href="https://github.com/AdrianPato1"
               target="_blank"
               className="group relative inline-flex items-center justify-center rounded-2xl border border-white/20 px-5 py-3 button-focus overflow-hidden"
             >
@@ -79,7 +79,7 @@ export default function CallToAction() {
           {/* Aularium destacado */}
           <motion.div {...hoverItem}>
             <Link
-              href="https://aularium.example.com"
+              href="http://aularium.upqroo.edu.mx/"
               target="_blank"
               className="group relative inline-flex items-center justify-center rounded-2xl border border-white/20 px-5 py-3 button-focus overflow-hidden"
             >
