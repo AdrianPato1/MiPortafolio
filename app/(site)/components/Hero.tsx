@@ -34,7 +34,7 @@ export default function Hero() {
             transition={{ delay: 0.15, duration: 0.6 }}
             className="mt-4 text-base opacity-80 max-w-prose"
           >
-            Soy Adriá Ingeniero en Software y Desarrollador Web. Me enfoco en Next.js, TypeScript y UX para crear experiencias de alto impacto.
+            Soy Adrián Ingeniero en Software y Desarrollador Web. Me enfoco en Next.js, TypeScript y UX para crear experiencias de alto impacto.
           </motion.p>
 
           <motion.div

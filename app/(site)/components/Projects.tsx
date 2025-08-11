@@ -14,7 +14,7 @@ export default function Projects() {
     <section id="projects" aria-label="Proyectos" className="mx-auto max-w-6xl px-4 py-16">
       <div className="mb-8 flex items-end justify-between">
         <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">Proyectos destacados</h2>
-        <Link href="https://github.com/tu-usuario" target="_blank" className="link-underline text-sm">
+        <Link href="https://github.com/AdrianPato1" target="_blank" className="link-underline text-sm">
           Ver todo en GitHub →
         </Link>
       </div>
