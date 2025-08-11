@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100 antialiased;
+  background-image: radial-gradient(1200px 600px at 50% -10%, rgba(43,114,255,0.12), transparent 60%);
+}
+
+/* Microinteracciones accesibles */
+.button-focus {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-neutral-950 rounded-xl;
+}
+
+.card {
+  @apply rounded-2xl bg-white/70 dark:bg-white/5 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-sm hover:shadow-glow transition-shadow;
+}
+
+.link-underline {
+  @apply underline decoration-brand-400/40 underline-offset-4 hover:decoration-brand-400;
+}
+.tilt {
+  transform-style: preserve-3d;
+}
+.tilt:hover {
+  transform: perspective(1000px) rotateX(2deg) rotateY(-2deg);
+  transition: transform 300ms;
+}
