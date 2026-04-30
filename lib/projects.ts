@@ -33,7 +33,7 @@ export const projects: Project[] = [
         'Sitio del zoológico EcoSafari con storytelling, compra de tickets y base de datos de animales.',
       stack: ['Next.js', 'Tailwind', 'Supabase'],
       image: '/EcoSafari.png',
-      demo: 'https://www.figma.com/design/QiueKrYOmdFhfmLtFZHYjE/ProyectoInterfaces?node-id=0-1&m=dev',
+      demo: '',
       code: 'https://github.com/tu-usuario/ecosafari'
     },
     {
